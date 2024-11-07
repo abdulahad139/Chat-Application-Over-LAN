@@ -41,3 +41,15 @@ Click Finish.
 9. Repeat for Outbound Rules:
 To ensure your computer can also send data on this port, go back to the main Windows Defender Firewall with Advanced Security window.
 Select Outbound Rules in the left panel and repeat the above steps to create a rule for Outbound connections on port 12345.
+<br>
+Remember this setting will be applied to both server and client devices.
+
+# How to RUN the code?
+1. open server.py file and open the terminal.
+2. write command python server.py
+3. the server should connect with the IP.
+4. now in the client device open the client.py file
+5. write command python client.py
+6. if client is successfully created then it should show the message "welcome to the chat"
+7. client would ask username first.
+8. run the program and enjoy the chat
